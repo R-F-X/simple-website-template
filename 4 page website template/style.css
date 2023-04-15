@@ -1,0 +1,248 @@
+
+    * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: blue;
+            color: salmon;
+        }
+
+
+        /* HEADER STYLES */
+        header {
+            background: url(images/fitness\ \(2\).jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            height: 100vh;
+        }
+
+        header h1 {
+            transition: 400ms ease;
+            text-align: center;
+            font-size: 90px;
+            text-shadow: 5px 3px 1px black;
+            text-transform: uppercase;
+
+            position: relative;
+            top: 25%;
+        }
+
+
+        /* NAVBAR */
+        nav {
+            transition: 400ms ease;
+            padding: 10px 5px;
+            background-color: black;
+            position: sticky;
+            top: 0%;
+            z-index: 2;
+        }
+
+        nav a {
+            color: aqua;
+            padding: 20px;
+            transition: 500ms ease;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+
+        /* MAIN STYLES */
+        /* main {
+            height: 100vh;
+        } */
+
+        div {
+            color: white;
+        }
+
+        .content,
+        .con {
+            min-height: 100vh;
+        }
+
+        .content {
+            padding: 10px 0 10px 10px;
+
+            background: url(images/food\ \(10\).jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .con {
+            padding: 10px 0 10px 10px;
+            height: 105vh;
+
+            background: url(images/food\ \(7\).jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .layer,
+        .layer-2 {
+            transition: 400ms ease;
+            background-color: black;
+            opacity: .8;
+            width: 100%;
+            /* height: 100vh; */
+            padding: 10px 10px 10px 10px;
+        }
+
+        .layer-2 {
+            float: right;
+            /* left: 0%; */
+            /* padding: 10px 0 0px 10px; */
+            /* height: 100vh; */
+        }
+
+        .content p,
+        .con p {
+            width: 100%;
+            margin-bottom: 15px;
+            transition: 400ms ease;
+        }
+
+
+        /* IMAGES */
+        /*
+        .image-slot {
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            opacity: .7;
+            padding: 10px;
+            position: relative;
+            left: 60%;
+            top: 60%;
+        }
+
+        
+        .image-slot img {
+            width: 20vw;
+            height: 20vh;
+            object-fit: cover;
+        } */
+
+        /* FOOTER */
+        footer {
+            background-color: black;
+            min-height: 30vh;
+            padding: 20px 20px;
+            border-top: 2px solid grey;
+            line-height: 1.5rem;
+        }
+
+        footer ul {
+            color: grey;
+            list-style: none;
+            columns: 4;
+        }
+
+
+        /* MEDIA QUERIES */
+        @media (min-width: 700px) {
+            nav {
+                padding: 15px;
+            }
+
+            header h1 {
+                top: 30%;
+            }
+
+            .content,
+            .con {
+                min-height: 100vh;
+            }
+
+            .content {
+                padding: 10px 0 10px 10px;
+
+                background: url(images/food\ \(10\).jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            .con {
+                padding: 10px 0 10px 10px;
+                height: 105vh;
+
+                background: url(images/food\ \(7\).jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            .layer,
+            .layer-2 {
+                background-color: black;
+                opacity: .8;
+                width: 90%;
+                height: 100vh;
+                padding: 10px 0px 10px 10px;
+            }
+
+            .layer-2 {
+                float: right;
+                /* left: 0%; */
+                /* padding: 10px 0 0px 10px; */
+                /* height: 100vh; */
+            }
+
+            .content p,
+            .con p {
+                width: 70%;
+                margin-bottom: 15px;
+            }
+        }
+
+        @media (min-width:1000px) {
+
+            .layer,
+            .layer-2 {
+                background-color: black;
+                opacity: .8;
+                width: 65%;
+                height: 100vh;
+                padding: 10px 0px 10px 10px;
+            }
+        }
+
+        @media (min-width:1400px) {
+
+            .layer,
+            .layer-2 {
+                background-color: black;
+                opacity: .8;
+                width: 50%;
+                height: 100vh;
+                padding: 10px 0px 10px 10px;
+            }
+
+            .content p,
+            .con p {
+                width: 65%;
+                margin-bottom: 15px;
+            }
+
+            header h1 {
+                top: 40%;
+            }
+        }
+    

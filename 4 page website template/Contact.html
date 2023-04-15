@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Contact us</title>
+
+    <base target="_blank">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        body {
+            color: white;
+            overflow: auto;
+
+            background: url(./images/fitness\ \(3\).jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            font-size: 60px;
+            color: salmon;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        nav {
+            /* margin-bottom: 20px; */
+            transition: 400ms ease;
+
+            padding: 10px 0px;
+            background-color: transparent;
+            position: static;
+            z-index: 2;
+        }
+
+        nav a {
+            color: aqua;
+            padding: 20px;
+            transition: 500ms ease;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .layer {
+            padding: 10px;
+            transition: 400ms ease;
+            background-color: black;
+            opacity: .75;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .layer p {
+            width: 90%;
+            margin-bottom: 10px;
+        }
+
+        /* MEDIA QUERIES */
+        @media (min-width:1000px) {
+            body {
+                overflow: hidden;
+            }
+
+            nav {
+                padding: 15px;
+                position: sticky;
+                top: 0%;
+            }
+
+            .layer p {
+                width: 60%;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="layer">
+            <nav>
+                <a href="./Home.html">Home</a>
+                <a href="./About.html">About us</a>
+                <a href="./Contact.html">Contact us</a>
+                <a href="./Blog.html">Blog</a>
+            </nav>
+
+            <h1>
+                Contact us
+            </h1>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis pariatur sunt inventore,
+                neque id illo, quo fugit quibusdam magnam delectus, impedit iste laborum qui eligendi est deserunt
+                error
+                nam illum minima reprehenderit voluptate perspiciatis fuga consequatur! Velit delectus soluta
+                deserunt,
+                distinctio praesentium deleniti fugiat officia. Quaerat mollitia quidem aspernatur!
+            </p>
+
+            <p>
+                Our email: <br>
+                Our Office number: <br>
+                Address: <br>
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi perferendis pariatur sunt inventore,
+                neque id illo, quo fugit quibusdam magnam delectus, impedit iste laborum qui eligendi est deserunt
+                error
+                nam illum minima reprehenderit voluptate perspiciatis fuga consequatur! Velit delectus soluta
+                deserunt,
+                distinctio praesentium deleniti fugiat officia. Quaerat mollitia quidem aspernatur!
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>
